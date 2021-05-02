@@ -58,7 +58,8 @@ hr {
 /* This centers the intro, about me, and contact sections, and sets the container widths to 800px; */
 #intro,
 #about-me,
-#contact {
+#contact,
+article {
   position: relative;
   display: flex;
   justify-items: center;
