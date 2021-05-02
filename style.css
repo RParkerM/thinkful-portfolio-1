@@ -91,6 +91,7 @@ article {
   width: 460px;
   position: relative;
   background: url("./images/me.png");
+  background-size: cover;
   overflow: visible;
   box-shadow: 5px 5px 11px 2px rgba(0, 0, 0, 0.3),
     inset 3px 3px 10px 9px rgb(0 0 0 / 30%);
@@ -155,4 +156,21 @@ footer {
   width: 100vw;
   color: var(--primary-color);
   padding: 30px 0;
+}
+
+@media (max-width: 800px) {
+  #intro,
+  #about-me,
+  #contact,
+  article {
+    max-width: 700px;
+  }
+  #self-portrait {
+    width: 360px;
+    height: 360px;
+  }
+  #self-portrait::before {
+    width: 359px;
+    height: 358px;
+  }
 }
