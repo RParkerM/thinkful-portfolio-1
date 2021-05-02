@@ -42,9 +42,10 @@ header h1 {
   letter-spacing: 0.15rem;
 }
 
-header h3 {
+header h2 {
   letter-spacing: 0.1rem;
   margin-top: 5px;
+  font-size: 1.12rem;
 }
 
 /* This creates the HR effect of a dashed line */
@@ -134,7 +135,7 @@ article {
 }
 
 a:link {
-  color: firebrick;
+  color: #8d1b1b;
 }
 
 a:visited {
@@ -154,7 +155,7 @@ footer {
   text-align: center;
   margin-bottom: 0;
   width: 100vw;
-  color: var(--primary-color);
+  color: #d8cec0;
   padding: 30px 0;
 }
 
